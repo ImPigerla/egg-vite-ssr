@@ -1,0 +1,63 @@
+{
+  "window.zoomLevel": 1,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+  },
+  "editor.renderControlCharacters": true,
+  // 重新设定tabsize
+  "editor.tabSize": 2,
+  // 每次保存的时候自动格式化
+  "editor.formatOnSave": true,
+  // 使能每一种语言默认格式化规则
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 500, // 换行字符串阈值
+  "prettier.tabWidth": 2, // 缩进字节数
+  "prettier.semi": true, // 句末加分号
+  "prettier.singleQuote": true, // 用单引号
+  "prettier.proseWrap": "preserve", // 默认值。因为使用了一些折行敏感型的渲染器（如GitHub comment）而按照markdown文本样式进行折行
+  "prettier.arrowParens": "avoid", //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
+  "prettier.jsxBracketSameLine": false, // 在jsx中把'>' 是否单独放一行
+  "prettier.jsxSingleQuote": false, // 在jsx中使用单引号代替双引号
+  "prettier.trailingComma": "none" // 最后一个对象元素加逗号
+}

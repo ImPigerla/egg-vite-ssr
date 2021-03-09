@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.ice/
+npm-debug.log
+node_modules/
+dist
+public/
+logs
+config/manifest.json
+typings/app/
+typings/config/
+CHANGELOG.md
+run/
+config/**/*.js
+app/view/**/*.js
+agent.js
+app.js
