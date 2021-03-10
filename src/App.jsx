@@ -13,7 +13,7 @@ const routes = Object.keys(pages).map((path) => {
   }
 })
 
-export function App() {
+export function App(props) {
   return (
     <>
       <nav>
@@ -31,7 +31,7 @@ export function App() {
         {routes.map(({ path, component: RouteComp }) => {
           return (
             <Route key={path} path={path}>
-              <RouteComp />
+              <RouteComp {...props}/>
             </Route>
           )
         })}

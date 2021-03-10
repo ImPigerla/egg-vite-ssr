@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "egg": "^2.29.3",
+    "egg-vite-plugin": "^1.1.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
