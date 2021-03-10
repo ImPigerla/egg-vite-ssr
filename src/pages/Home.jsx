@@ -1,4 +1,6 @@
 export default function Home(props) {
-  console.log(3333, props)
-  return <h1>Home</h1>
+  return <>
+  <h1>Home</h1>
+  <h1>Home</h1>
+  </>
 }
