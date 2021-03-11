@@ -11,7 +11,7 @@ typings/app/
 typings/config/
 CHANGELOG.md
 run/
-config/**/*.js
+# config/**/*.js
 app/view/**/*.js
 agent.js
 app.js
